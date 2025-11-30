@@ -11,7 +11,6 @@ class CategorySeeder extends Seeder
     {
         Category::create([
             'name' => 'Genérico'
-            // Quita 'description'
         ]);
 
         Category::create([
@@ -20,13 +19,6 @@ class CategorySeeder extends Seeder
 
         Category::create([
             'name' => 'Deportes'
-        ]);
-    }
-}
-
-        Category::create([
-            'name' => 'Bebidas',
-            'description' => 'Productos bebibles.'
         ]);
     }
 }
